@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+
+body {
+  background: #66cccc;
+}
+
+.App {
+  text-align: center;
+  background-color: #66cccc !important;
+}
+.pokedex {
+  background: #ffd554 url("./header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px;
+  border-bottom: 8px solid #ffe491;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.35);
+}
+
+h2 {
+  font-family: "Happy Monkey", cursive;
+  color: #282b78;
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+/* Pokecard Component*/
+.pokemons {
+  background: #f2f2f2;
+  font-size: 1em;
+  margin: 15px;
+  cursor: pointer;
+  border: 7px solid #e4e4e4;
+  border-radius: 15px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+}
+.pokemons:hover {
+  scale: 1.03 1.03;
+}
+.pokenames,
+.pokenames a {
+  text-decoration: none;
+  color: #2c3484;
+  font-family: "Happy Monkey", cursive;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* PokeDetail Component*/
+
+.details-card {
+  border: 10px solid #e4e4e4;
+  background: #eee;
+  border-radius: 15px;
+  padding: 20px 10px 20px 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 330px;
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.3);
+}
+
+.details {
+  margin: 20px 0;
+  font-family: "Happy Monkey", cursive;
+  font-size: 1.25em;
+  line-height: 1.75em;
+  color: #2c3484;
+}
+
+.detail-img {
+  padding: 10px;
+  display: flex;
+  min-height: 180px;
+  max-height: 180px;
+  overflow: hidden;
+  align-items: center;
+}
+.MuiGrid-grid-xs-true,
+.detailleft,
+.detailright {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemons img,
+.pokeimage,
+.detailleft img,
+.detailright img {
+  vertical-align: middle;
+}
+
+.MuiDivider-root {
+  margin-bottom: 5px;
+}
+.dib {
+  text-transform: capitalize;
+}
+.MuiButton-root {
+  font-family: "Happy Monkey", cursive;
+  font-weight: bold;
+}
+.bottomcard {
+  padding: 15px 0;
+  background: #e7e7e7;
+}
+/* SearchBar Component */
+.search {
+  border: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 300px;
+  font-family: "Happy Monkey", cursive;
+}
+
+/* Pokefight */
+
+.pokeFight {
+  display: flex;
+  justify-content: space-around;
+}
+.fights {
+  padding-top: 100px;
+}
+.thunder {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.fighterOne {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.fighterTwo {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fighterOne .pokemons,
+.fighterTwo .pokemons {
+  scale: 1.55;
+}
+
+.fightResult {
+  width: 300px;
+  margin: 0 auto;
+  padding: 50px 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  color: #fff;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  animation-delay: 0.2s;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #66cccc !important;
+}
